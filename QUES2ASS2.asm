@@ -1,0 +1,10 @@
+CODE SEGMENT
+    ASSUME CS:CODE
+
+    
+    MOV AX,0A526H
+    MOV BX,056BAH
+    
+    MUL BX
+    INT 03H
+    CODE ENDS
